@@ -60,10 +60,10 @@ body {
 }
 
 .hero {
-  background-image: url("https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("./images/damaris1.JPG");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom center;
+  background-position: center 25%;
   height: 100vh;
   color: #fff;
   display: flex;
@@ -106,4 +106,10 @@ body {
   color: #555;
   line-height: 30px;
   letter-spacing: 1.2px;
+}
+
+@media screen and (max-width: 730px) {
+  /* .hero {
+    background-position: ;
+  } */
 }
